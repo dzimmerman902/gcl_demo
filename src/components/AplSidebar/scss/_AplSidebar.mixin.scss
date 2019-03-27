@@ -1,0 +1,7 @@
+@mixin apl-sidebar {
+  min-height: 100vh;
+  border-right: 1px solid $color-grey-2;
+}
+
+@mixin apl-sidebar-item {
+}

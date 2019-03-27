@@ -1,0 +1,21 @@
+.gcl-button {
+  &--primary {
+    @include gcl-button('primary');
+  }
+
+  &--secondary {
+    @include gcl-button('secondary');
+  }
+
+  &--tertiary {
+    @include gcl-button('tertiary');
+  }
+
+  &--inactive {
+    @include gcl-button('inactive');
+  }
+
+  &--block {
+    @include gcl-button--block();
+  }
+}

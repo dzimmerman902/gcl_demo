@@ -1,0 +1,17 @@
+@mixin gcl-link() {
+  color: #029f9f;
+  font-family: $gcl-font-family-primary;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.14;
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  &:hover {
+    color: #00c9c9;
+  }
+}

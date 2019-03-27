@@ -1,0 +1,63 @@
+@mixin gcl-color-primary() {
+  color: $gcl-color-primary !important;
+}
+
+@mixin gcl-color-primary-dark() {
+  color: $gcl-color-dark !important;
+}
+
+@mixin gcl-color-secondary-1() {
+  color: $gcl-color-secondary-1 !important;
+}
+
+@mixin gcl-color-secondary-2() {
+  color: $gcl-color-secondary-2 !important;
+}
+
+@mixin gcl-color-secondary-3() {
+  color: $gcl-color-secondary-3 !important;
+}
+
+@mixin gcl-color-secondary-4() {
+  color: $gcl-color-secondary-4 !important;
+}
+
+@mixin gcl-color-tertiary-1() {
+  color: $gcl-color-tertiary-1 !important;
+}
+
+@mixin gcl-color-tertiary-2() {
+  color: $gcl-color-tertiary-2 !important;
+}
+
+@mixin gcl-color-tertiary-3() {
+  color: $gcl-color-tertiary-3 !important;
+}
+
+@mixin gcl-color-danger() {
+  color: $gcl-color-danger !important;
+}
+
+@mixin gcl-color-grey-1() {
+  color: $gcl-color-grey-1 !important;
+}
+
+@mixin gcl-color-grey-2() {
+  color: $gcl-color-grey-2 !important;
+}
+
+@mixin gcl-color-grey-3() {
+  color: $gcl-color-grey-3 !important;
+}
+
+@mixin gcl-color-grey-4() {
+  color: $gcl-color-grey-4 !important;
+}
+
+@mixin gcl-color-black() {
+  color: $gcl-color-black !important;
+}
+
+@mixin gcl-color-white() {
+  color: $gcl-color-white !important;
+}

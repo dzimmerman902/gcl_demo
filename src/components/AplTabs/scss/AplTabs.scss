@@ -1,0 +1,39 @@
+.apl-tabs {
+  &-list {
+    display: flex;
+
+    margin-bottom: 10px;
+  }
+
+  &-item {
+    color: $gcl-font-color-primary;
+    font-family: $gcl-font-family-primary;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px 4px;
+
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &.active {
+      border-bottom: 2px solid $gcl-color-primary;
+    }
+  }
+
+  &-content {
+    border: 2px solid $gcl-color-grey-3;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &-pane {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

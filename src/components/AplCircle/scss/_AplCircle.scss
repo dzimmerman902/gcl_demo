@@ -1,0 +1,67 @@
+.apl-circle {
+  @include apl-circle();
+
+  &__shape {
+    @include apl-circle__shape();
+
+    &--primary {
+      @include apl-circle__shape($gcl-color-primary);
+    }
+
+    &--primary-dark {
+      @include apl-circle__shape($gcl-color-primary-dark);
+    }
+
+    &--secondary-1 {
+      @include apl-circle__shape($gcl-color-secondary-1);
+    }
+
+    &--secondary-2 {
+      @include apl-circle__shape($gcl-color-secondary-2);
+    }
+
+    &--secondary-3 {
+      @include apl-circle__shape($gcl-color-secondary-3);
+    }
+
+    &--secondary-4 {
+      @include apl-circle__shape($gcl-color-secondary-4);
+    }
+
+    &--tertiary-1 {
+      @include apl-circle__shape($gcl-color-tertiary-1);
+    }
+
+    &--tertiary-2 {
+      @include apl-circle__shape($gcl-color-tertiary-2);
+    }
+
+    &--tertiary-3 {
+      @include apl-circle__shape($gcl-color-tertiary-3);
+    }
+
+    &--danger {
+      @include apl-circle__shape($gcl-color-danger);
+    }
+
+    &--grey-1 {
+      @include apl-circle__shape($gcl-color-grey-1);
+    }
+
+    &--grey-2 {
+      @include apl-circle__shape($gcl-color-grey-2);
+    }
+
+    &--grey-3 {
+      @include apl-circle__shape($gcl-color-grey-3);
+    }
+
+    &--grey-4 {
+      @include apl-circle__shape($gcl-color-grey-4);
+    }
+  }
+
+  &__text {
+    @include apl-circle__text();
+  }
+}

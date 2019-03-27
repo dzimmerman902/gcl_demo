@@ -1,0 +1,66 @@
+.apl-sidebar {
+  &__arrow {
+    height: 11px;
+    width: 11px;
+    border: solid #92a3b3;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+
+    &--up {
+      margin-top: 12px;
+      transform: rotate(-135deg);
+    }
+
+    &--down {
+      margin-top: 5px;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__item {
+    border-bottom: 1px solid $gcl-color-grey-3;
+
+    &-text {
+      display: flex;
+      justify-content: space-between;
+
+      color: $gcl-font-color-primary;
+      cursor: pointer;
+      font-family: $gcl-font-family-primary;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      line-height: normal;
+
+      padding: 25px 40px;
+    }
+  }
+
+  &__sub-item {
+    background-color: $gcl-color-grey-1;
+    cursor: pointer;
+    padding: 10px 0;
+
+    &-text {
+      color: $gcl-font-color-primary;
+      font-family: $gcl-font-family-primary;
+      font-size: 16px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      line-height: normal;
+      text-decoration: none;
+
+      display: block;
+      padding: 10px 60px;
+
+      &:active,
+      &.active {
+        color: $gcl-color-primary;
+      }
+    }
+  }
+}

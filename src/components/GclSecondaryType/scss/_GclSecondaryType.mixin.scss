@@ -1,0 +1,14 @@
+@mixin gcl-secondary-type($style: '') {
+  color: $gcl-font-color-secondary;
+  font-family: $gcl-font-family-secondary;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  line-height: 1.25;
+
+  @if $style == 'italic' {
+    font-style: italic;
+  }
+}

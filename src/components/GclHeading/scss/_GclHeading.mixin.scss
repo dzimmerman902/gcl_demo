@@ -1,0 +1,51 @@
+@mixin gcl-heading($size: '') {
+  color: $gcl-font-color-primary;
+  font-family: $gcl-font-family-primary;
+
+  @if $size == 1 or $size == '' {
+    font-size: 40px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  @if $size == 2 {
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+
+  @if $size == 3 {
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    line-height: 1;
+  }
+
+  @if $size == 4 {
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    line-height: 1.18;
+  }
+
+  @if $size == 5 {
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    line-height: 1.11;
+  }
+}

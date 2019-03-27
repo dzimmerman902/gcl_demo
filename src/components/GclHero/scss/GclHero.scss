@@ -1,0 +1,11 @@
+.gcl-hero {
+  @include gcl-hero();
+
+  &__title {
+    @include gcl-hero__title();
+  }
+
+  &__sub-title {
+    @include gcl-hero__sub-title();
+  }
+}

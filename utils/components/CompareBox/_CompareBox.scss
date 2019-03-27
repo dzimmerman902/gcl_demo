@@ -1,0 +1,17 @@
+.compare-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+
+  &__html,
+  &__react {
+    border-bottom: 2px solid #01b4b4;
+    color: #01b4b4;
+    font-family: 'Avenir';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 40%;
+  }
+}

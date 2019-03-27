@@ -1,0 +1,18 @@
+@mixin apl-circle() {
+}
+
+@mixin apl-circle__shape($color: '') {
+  background-color: $color;
+  border-radius: 50%;
+  height: 150px;
+  margin: 0 auto 10px;
+  width: 150px;
+}
+
+@mixin apl-circle__text() {
+  color: $gcl-font-color-primary;
+  font-family: $gcl-font-family-primary;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}

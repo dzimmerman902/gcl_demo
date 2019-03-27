@@ -1,0 +1,31 @@
+.gcl-bio {
+  @include gcl-bio();
+
+  &__image {
+    @include gcl-bio__image();
+
+    &--small {
+      @include gcl-bio__image('small');
+    }
+
+    &--large {
+      @include gcl-bio__image('large');
+    }
+
+    &--xlarge {
+      @include gcl-bio__image('xlarge');
+    }
+  }
+
+  &__image-src {
+    @include gcl-bio__image-src();
+  }
+
+  &__name {
+    @include gcl-bio__name();
+  }
+
+  &__sub-text {
+    @include gcl-bio__sub-text();
+  }
+}

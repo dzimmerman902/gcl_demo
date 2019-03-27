@@ -1,0 +1,20 @@
+@mixin gcl-hero {
+  background-image: url('https://img.gtvcdn.com/sites/default/files/imagecache/term_hero_1440x300/term_images/original_program_generic_all.jpg');
+  background-size: cover;
+  padding: 120px 40px 40px;
+}
+
+@mixin gcl-hero__title {
+  color: $gcl-color-white;
+  font-family: $gcl-font-family-primary;
+  font-size: 48px;
+  line-height: 1;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+@mixin gcl-hero__sub-title {
+  color: $gcl-color-white;
+  font-family: $gcl-font-family-primary;
+  font-size: 18px;
+  line-height: 1.4;
+}

@@ -1,0 +1,1 @@
+export { default as GclPrimaryType, PRIMARY_TYPE_WEIGHT } from './GclPrimaryType'

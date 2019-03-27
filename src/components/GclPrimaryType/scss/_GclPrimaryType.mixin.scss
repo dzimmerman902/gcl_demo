@@ -1,0 +1,25 @@
+@mixin gcl-primary-type($weight: '') {
+  color: $gcl-font-color-secondary;
+  font-family: $gcl-font-family-primary;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  line-height: 1.38;
+
+  @if $weight == 'heavy' or $weight == 700 {
+    font-weight: 700;
+  }
+
+  @if $weight == 'medium' or $weight == 500 or $weight == '' {
+    font-weight: 500;
+  }
+
+  @if $weight == 'book' or $weight == 300 {
+    font-weight: 300;
+  }
+
+  @if $weight == 'light' or $weight == 100 {
+    font-weight: 100;
+  }
+}

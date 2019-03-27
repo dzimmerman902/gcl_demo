@@ -1,0 +1,1 @@
+export { default as GclHeading, HEADING_SIZES } from './GclHeading'

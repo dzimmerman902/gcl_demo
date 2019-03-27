@@ -1,0 +1,7 @@
+.gcl-secondary-type {
+  @include gcl-secondary-type();
+
+  &--italic {
+    @include gcl-secondary-type('italic');
+  }
+}

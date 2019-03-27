@@ -1,0 +1,5 @@
+export { default as AplTabs } from './AplTabs'
+export { AplTabsContent } from './AplTabsContent'
+export { AplTabsItem } from './AplTabsItem'
+export { AplTabsList } from './AplTabsList'
+export { AplTabsPane } from './AplTabsPane'

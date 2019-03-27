@@ -1,0 +1,19 @@
+.apl-circle-gradient {
+  @include apl-circle-gradient();
+
+  &__shape {
+    @include apl-circle-gradient__shape();
+
+    &--example {
+      @include apl-circle-gradient__shape(
+        to bottom left,
+        #7c4490,
+        $gcl-color-primary
+      );
+    }
+  }
+
+  &__text {
+    @include apl-circle-gradient__text();
+  }
+}

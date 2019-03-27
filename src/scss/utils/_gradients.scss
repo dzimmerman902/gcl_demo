@@ -1,0 +1,16 @@
+/* -----------------------
+  GRADIENTS
+----------------------- */
+.gcl-tr-prim-1-to-ter-2 {
+  @include gradient-diagonal($gcl-color-primary, $gcl-color-tertiary-2);
+}
+
+.gcl-gradient-secondary-1 {
+  @include gradient-diagonal(#ff5548, #280b58);
+}
+.gcl-gradient-secondary-2 {
+  @include gradient-diagonal(#ffd838, #ff5548fc);
+}
+.gcl-gradient-secondary-3 {
+  @include gradient-diagonal(#ffd838, #01b4b4);
+}

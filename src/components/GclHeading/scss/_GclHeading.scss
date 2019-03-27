@@ -1,0 +1,23 @@
+.gcl-heading {
+  @include gcl-heading();
+
+  &--1 {
+    @include gcl-heading(1);
+  }
+
+  &--2 {
+    @include gcl-heading(2);
+  }
+
+  &--3 {
+    @include gcl-heading(3);
+  }
+
+  &--4 {
+    @include gcl-heading(4);
+  }
+
+  &--5 {
+    @include gcl-heading(5);
+  }
+}

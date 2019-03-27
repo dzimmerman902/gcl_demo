@@ -1,0 +1,71 @@
+@mixin gcl-button($color: '') {
+  font-family: $gcl-font-family-primary;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 0;
+  padding: 10px 15px;
+  transition: all 0.2s;
+
+  @if $color == 'primary' or $color == '' {
+    color: $gcl-font-color-white;
+    background-color: $gcl-color-primary;
+
+    &:hover,
+    &.hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $gcl-color-primary-dark;
+    }
+  }
+
+  @if $color == 'secondary' {
+    color: $gcl-font-color-white;
+    background-color: $gcl-color-secondary-3;
+
+    &:hover,
+    &.hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $gcl-color-secondary-4;
+    }
+  }
+
+  @if $color == 'tertiary' {
+    color: $gcl-font-color-grey;
+    background-color: $gcl-color-secondary-1;
+
+    &:hover,
+    &.hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $gcl-color-secondary-2;
+    }
+  }
+
+  @if $color == 'inactive' {
+    color: $gcl-font-color-white;
+    background-color: $gcl-color-grey-3;
+    cursor: not-allowed;
+  }
+}
+
+@mixin gcl-button--block() {
+  display: block;
+  width: 100%;
+}

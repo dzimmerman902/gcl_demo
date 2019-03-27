@@ -1,0 +1,23 @@
+.gcl-primary-type {
+  @include gcl-primary-type();
+
+  &--700,
+  &--heavy {
+    @include gcl-primary-type(700);
+  }
+
+  &--500,
+  &--medium {
+    @include gcl-primary-type(500);
+  }
+
+  &--300,
+  &--book {
+    @include gcl-primary-type(100);
+  }
+
+  &--100,
+  &--light {
+    @include gcl-primary-type(300);
+  }
+}

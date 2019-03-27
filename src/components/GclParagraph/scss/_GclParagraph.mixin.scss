@@ -1,0 +1,10 @@
+@mixin gcl-paragraph() {
+  color: $gcl-color-grey-4;
+  font-family: $gcl-font-family-secondary;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.33;
+}

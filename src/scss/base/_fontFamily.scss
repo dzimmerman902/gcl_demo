@@ -1,0 +1,61 @@
+// Primary
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Black.otf') format('otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-BlackOblique.otf') format('otf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Heavy.otf') format('otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-HeavyOblique.otf') format('otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Medium.otf') format('otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-MediumOblique.otf') format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Book.otf') format('otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Light.otf') format('otf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-LightOblique.otf') format('otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+// Secondary
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i');

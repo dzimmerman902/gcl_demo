@@ -1,0 +1,47 @@
+@mixin gcl-bio() {
+}
+
+@mixin gcl-bio__image($size: '') {
+  margin: 0 auto 10px;
+
+  @if $size == 'small' or $size == '' {
+    height: 150px;
+    width: 150px;
+  }
+
+  @if $size == 'large' {
+    height: 200px;
+    width: 200px;
+  }
+
+  @if $size == 'xlarge' {
+    height: 280px;
+    width: 280px;
+  }
+}
+
+@mixin gcl-bio__image-src() {
+  border-radius: 50%;
+}
+
+@mixin gcl-bio__name() {
+  color: $gcl-font-color-primary;
+  font-family: $gcl-font-family-primary;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+
+  margin-bottom: 7px;
+}
+
+@mixin gcl-bio__sub-text() {
+  color: $gcl-font-color-secondary;
+  font-family: $gcl-font-family-secondary;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}

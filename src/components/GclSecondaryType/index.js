@@ -1,0 +1,1 @@
+export { default as GclSecondaryType } from './GclSecondaryType';

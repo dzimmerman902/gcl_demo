@@ -1,0 +1,19 @@
+@mixin apl-circle-gradient() {
+}
+
+@mixin apl-circle-gradient__text {
+  color: $gcl-font-color-primary;
+  font-family: $gcl-font-family-primary;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@mixin apl-circle-gradient__shape($direction: '', $color1: '', $color2: '') {
+  background-image: linear-gradient($direction, $color1, $color2);
+  border-radius: 50%;
+  height: 150px;
+  margin: 0 auto 10px;
+  width: 150px;
+}
