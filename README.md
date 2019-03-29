@@ -1,4 +1,4 @@
-<h1 align="center" markdown="1"><img src="./src/images/logo-teal.png"> Component Library (gcl)</h1>
+<h1 align="center" markdown="1"><img src="./src/images/logo-teal.png"> Component Library (gcl) Demo</h1>
 
 **Components Library developed for Gaia inc.**
 

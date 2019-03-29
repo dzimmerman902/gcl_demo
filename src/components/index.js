@@ -1,4 +1,4 @@
-export * from './AplBody';
+export * from './AplBody'
 export * from './AplCircle'
 export * from './AplCircleGradient'
 export * from './AplSection'
